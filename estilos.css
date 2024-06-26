@@ -1,0 +1,25 @@
+main{
+    display: flex;
+}
+body{
+    background-color: #FFCDA2;
+    border: 0px;
+    margin: 0px;
+}
+.box{
+    margin: 20px;
+    width: 350px;
+    background-color: #FFB576;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFA354;
+   align-items: center;
+}
+.imagen{
+    text-transform: uppercase;
+}
+img{
+    margin: 2px;
+}
