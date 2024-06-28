@@ -17,7 +17,34 @@
 
         .container {
             display: flex;
-            justify-content:baseline
+            justify-content: baseline;
+            justify-content: space-between;
+
+        }
+
+        button {
+            background: rgba(76, 67, 126, 0.623);
+            color: white;
+            border-color: rgba(76, 67, 126, 0.623);
+            margin: 0px 10px;
+        }
+
+        span {
+            text-decoration: line-through;
+        }
+
+        .Oferta {
+            display: flex
+        }
+
+        img {
+            margin: 0px 20px;
+            border: 1px solid rgb(238, 238, 238);
+            padding: 2px;
+        }
+
+        h4 {
+            margin: 20px 20px;
         }
     </style>
 </head>
@@ -33,22 +60,21 @@
         </div>
     </header>
     <main>
-            <div>
-                <h5>Consegui los mejores beneficios en Mercado Libre </h5>
-            </div>
-
-            <div class="container">
-            <div>
-                <img src="./assets/imagenes/Disney-Plus-Logo-PNG-Image.png" alt="Disney" width="90" height="50">
+        <div>
+            <h5>Consegui los mejores beneficios en Mercado Libre </h5>
+        </div>
+        <div class="container">
+            <div class="Oferta">
+                <img src="./assets/imagenes/Disney-Plus-Logo-PNG-Image.png" alt="Disney" width="80" height="50">
                 <p>Disney+ sin cargo</p>
             </div>
-            <div>
-                <img src="./assets/imagenes/star-plus-logo.png" alt="Star" width="120" height="50">
-                <p>Star+ sin cargo</p>
+            <div class="Oferta">
+                <img src="./assets/imagenes/Star+.png" alt="Star" width="80" height="50">
+                <p> Star+ sin cargo</p>
             </div>
-            <div>
-                <img src="./assets/imagenes/entrega-rapida.png" alt="Camion" width="90" height="50">
-                <p>Envios Gratis y rapidos desde $23.000 y 45% OFF en envios de menos de $23.000</p>
+            <div class="Oferta">
+                <img src="./assets/imagenes/entrega-rapida.png" alt="Camion" width="50" height="50">
+                <p>Envios gratis y rapidos desde $23.000 y <br>45% OFF en envios de menos de $23.000</p>
 
             </div>
         </div>
